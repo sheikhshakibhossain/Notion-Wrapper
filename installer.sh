@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# install dependencies
+echo "Installing Dependencies..."
+sudo apt update;
+sudo apt install python3-pyqt5 python3-pyqt5.qtwebengine -y;
+
 # Define the paths
 APP_NAME="notion"
 APP_BIN="/usr/local/bin/$APP_NAME"
